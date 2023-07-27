@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(228, 54, 54);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+
+        nav ul li a:hover {
+            color: rgb(128, 32, 96);
+            font: 1.04rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: purple;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 30px;
+        }
+
+        .secondSection .box {
+            background: black;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: black;
+            margin: 0 120px;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2rem;
+            margin: 70px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 10px;
+       
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #a922a9;
+            color: white;
+            border: 2px soid black;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+
+            width: 80%;
+            margin: 50px 0;
+
+        }
+
+        .text-gray {
+            color: rgb(51, 49, 49);
+        }
+
+        .class1 {
+            color: purple;
+        }
+
+        #element {
+            color: purple;
+        }
+
+        .myImage {
+            width: 39px;
+            position: relative;
+            top: -50px;
+            left: -15px;
+        }
+
+        .vrText {
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+
+        .vrDesc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: #bb4343;
+
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footerrights {
+            text-align: center;
+            color: #292121;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aakanksha's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+
+<main>
+    <section class="firstSection">
+        <div class="leftSection">Hello Everyone!!
+            <div>My name is <span class="class1">Aakanksha R</span> </div>
+            <div> I am an IT student </div>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+
+        </div>
+       
+
+        <div class="rightSection">
+            <img src="StuImage.jfif" alt="student Image">
+        </div>
+
+    </section>
+
+    <hr>
+    <section class="secondSection">
+        <span class="text-gray">what I have done so far</span>
+        <h1>Educational Qualification </h1>
+        <div class="box">
+            <div class="vertical">
+                <img class="myImage" src="ssc.jfif" alt="">
+                <div class="vrText"> SSC</div>
+                <div class="vrDesc"> Passed from Kolhapur Board in 2017 [86.40%]</div>
+            </div>
+            <div class="vertical">
+                <img class="myImage" src="hsc.jfif" alt="">
+                <div class="vrText"> HSC</div>
+                <div class="vrDesc"> Passed from Kolhapur Board in 2019 [70.00%]</div>
+
+            </div>
+            <div class="vertical">
+                <img class="myImage" src="diploma.jfif" alt="">
+                <div class="vrText"> Diploma In CSE</div>
+                <div class="vrDesc"> passed from MSBTE in 2021[89.83%]</div>
+
+            </div>
+            <div class="vertical">
+                <img class="myImage" src="BEE.jfif" alt="">
+                <div class="vrText">BE-IT</BE-IT></div>
+                <div class="vrDesc"> Persuing at SPPU.. current CGPA [8.19]</div>
+
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="footer">
+        <div class="footer1">
+            <h3>Aakanksha's Developers Portfolio</h3>
+        </div>
+
+        <div class="footer2">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="footer3">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+        <div class="footer4">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contacts</li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="footerrights">
+        Copyright &#169; www.aakankshasportfolio.com | All Rights Reserved
+    </div>
+</footer>
+
+</html>
